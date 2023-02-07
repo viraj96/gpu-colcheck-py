@@ -13,8 +13,8 @@ gpu-colcheck-py is a python module that provides a collision checking functional
 ## Installation
 
 ```python
-git clone --recursive https://github.com/pybind/cmake_example.git
-pip install ./cmake_example
+git clone --recursive https://github.com/pybind/gpu-colcheck-py.git
+pip install ./gpu-colcheck-py
 ```
 
 ## Notes
@@ -28,7 +28,7 @@ export GPU_VOXELS_PREFIX_PATH=<path-to-gpu-voxels-export-dir>
 
 ```
 
-* You will need to generate the voxel files for the robots that you want to load using the instructions given in the [gpu-voxels](https://github.com/fzi-forschungszentrum-informatik/gpu-voxels). 
+* You will need to generate the voxel files for the robots that you want to load using the instructions given in the [gpu-voxels](https://github.com/fzi-forschungszentrum-informatik/gpu-voxels) repository. 
 * Make sure that the urdf files that you use to load the robots are placed on the positive quadrant of the xyz-axes as gpu-voxels does not support negative quadrants and hence the collision checker might not work as expected. 
 * To run the first copy `rs007l/` to the `GPU_VOXELS_MODEL_PATH` and then run test script,
 ```python
