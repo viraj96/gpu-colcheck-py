@@ -35,3 +35,7 @@ export GPU_VOXELS_PREFIX_PATH=<path-to-gpu-voxels-export-dir>
 python test_basic.py
 ```
 * Tested on Ubuntu 20.04, Cuda 12 and Python 3.8
+ 
+## References
+
+If you find this repository useful then please cite the original [work](https://github.com/fzi-forschungszentrum-informatik/gpu-voxels).
