@@ -13,8 +13,8 @@ gpu-colcheck-py is a python module that provides a collision checking functional
 ## Installation
 
 ```python
-	git clone --recursive https://github.com/pybind/cmake_example.git
-	pip install ./cmake_example
+git clone --recursive https://github.com/pybind/cmake_example.git
+pip install ./cmake_example
 ```
 
 ## Notes
@@ -22,9 +22,9 @@ gpu-colcheck-py is a python module that provides a collision checking functional
 * Once gpu-voxels is built run the following commands,
 
 ```sh
-	export LD_LIBRARY_PATH=<path-to-gpu-voxels-export-dir>/lib:$LD_LIBRARY_PATH
-	export GPU_VOXELS_MODEL_PATH=<path-to-gpu-voxels-models-dir>
-	export GPU_VOXELS_PREFIX_PATH=<path-to-gpu-voxels-export-dir>
+export LD_LIBRARY_PATH=<path-to-gpu-voxels-export-dir>/lib:$LD_LIBRARY_PATH
+export GPU_VOXELS_MODEL_PATH=<path-to-gpu-voxels-models-dir>
+export GPU_VOXELS_PREFIX_PATH=<path-to-gpu-voxels-export-dir>
 
 ```
 
@@ -32,6 +32,6 @@ gpu-colcheck-py is a python module that provides a collision checking functional
 * Make sure that the urdf files that you use to load the robots are placed on the positive quadrant of the xyz-axes as gpu-voxels does not support negative quadrants and hence the collision checker might not work as expected. 
 * To run the first copy `rs007l/` to the `GPU_VOXELS_MODEL_PATH` and then run test script,
 ```python
-    python test_basic.py
+python test_basic.py
 ```
 * Tested on Ubuntu 20.04, Cuda 12 and Python 3.8
