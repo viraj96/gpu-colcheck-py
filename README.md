@@ -1,4 +1,4 @@
-# GPu-Voxel based collision checking in Python
+# GPU-Voxel based collision checking in Python
 
 gpu-colcheck-py is a python module that provides a collision checking functionality that is built over [gpu-voxels](https://www.gpu-voxels.org/) library. This module was built using [pybind11](https://github.com/pybind/pybind11) Cmake-based build system. To install and get it work you will need to get first install gpu-voxels on your machine and then follow the installation instructions below to get it working. 
 
@@ -13,7 +13,7 @@ gpu-colcheck-py is a python module that provides a collision checking functional
 ## Installation
 
 ```python
-git clone --recursive https://github.com/pybind/gpu-colcheck-py.git
+git clone --recursive https://github.com/viraj96/gpu-colcheck-py.git
 pip install ./gpu-colcheck-py
 ```
 
